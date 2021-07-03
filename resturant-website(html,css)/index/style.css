@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    background-color: orangered;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.logo i{
+    margin: 10px 5px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.logo p{
+    line-height: 50px;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    line-height: 50px;
+    transition: all .3s;
+}
+.nav ul li a:hover{
+    border-bottom: 3px solid black;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+.sign{
+    align-self: center;
+    margin-right: 20px;
+}
+.sign button{
+    border: 2px solid white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+   transition: all .3s;
+   cursor: pointer;
+}
+.sign button:hover{
+    color: orangered;
+    background-color: white;
+} 
+.search{
+    text-align: center;
+    line-height: 40px;
+    background-color: orangered;
+}
+.search #search{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.search label{
+    font-size: medium;
+    background-color: white;
+    padding: 3px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main{
+    background-color: rgb(223, 209, 22);
+}
+.flex{
+    display: flex;
+  
+}
+article{
+    flex-grow: 1;
+    margin: 100px 50px;
+}
+article h1{
+    font-size: 3em;
+    color: rgb(240, 116, 68);
+    text-shadow: 4px 4px black;
+}
+article p{
+    font-size: 2em;
+    color: rgb(151, 40, 21);
+}
+img{
+    flex-grow: 1;
+    height: 500px;
+    width: 400px;
+    border: 5px dashed orangered;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: 6em;
+}
+.buttons{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    
+    
+}
+input[type=submit]{
+    margin-left: 20px;
+    padding: 20px 60px;
+    border: none;
+    background-color: orangered;
+    box-shadow: -5px 5px black;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all .2s;
+}
+input[type=submit]:hover{
+    transform: translate(-5px,5px);
+    box-shadow: none;
+}
+footer{
+    background-color: rgb(172, 169, 169);
+    padding-top: 100px;
+}
+.social ul{
+    display: flex;
+    
+}
+.social ul li{
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    list-style: none;
+    border: none;
+   border-radius: 50%;    
+   padding: 10px;
+   margin-left: 10px;
+   background-color: white;
+   box-shadow: 0 2px 3px black;
+   transition: all .3s;
+}
+.social ul li i{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.social ul li:hover{
+    transform: translateY(-10px);
+}
+.social ul li i:hover{
+   color: blueviolet;
+}
+

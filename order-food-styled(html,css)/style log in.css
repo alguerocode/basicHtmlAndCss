@@ -1,0 +1,19 @@
+*{
+    font-size: 30px;
+}
+.body{
+    background-color: cornflowerblue;
+}
+h1{
+    font-size: 20px;
+    font-family: fantasy;
+    color: aliceblue;   
+}
+.img{
+    opacity: .5;
+}
+form{
+    background-color: cyan;
+    color: blue !important;
+    background-image: url("");
+}

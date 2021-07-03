@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html{
+    font-size: 62.5%;
+}
+
+img{
+    position: relative;
+    left: 25%;
+}
+
+h1{
+    font-size:2.8rem ;
+
+}
+h2{
+    font-size:3.6rem;
+    padding:5rem 0rem;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2.8rem;
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    background-color: rgb(92, 106, 235);
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+
+}
+nav ul{
+    float: right
+    
+}
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+.hero{
+    content: url("/pexels-ella-olsson-1640777.jpg");
+    height: 10rem;
+    width: 20rem;
+}

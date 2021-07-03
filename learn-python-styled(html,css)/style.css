@@ -1,0 +1,30 @@
+*{
+    font-size: large;
+}
+h2{
+    color: rgb(112, 160, 233);
+    background-color: black;
+}
+.the-intro{
+    background-color: rgb(110, 184, 245);
+}
+ul .what{
+    color: red;
+}
+ul li{
+    color: white;
+}
+#introduction{
+    color: rgb(199, 238, 56);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rebeccapurple;
+}
+#introduction strong{
+    color: rebeccapurple;
+}
+p ,
+h2{
+    color: rebeccapurple;
+}

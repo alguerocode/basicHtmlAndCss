@@ -1,0 +1,39 @@
+body{
+    background-color: #d8d8d8;
+    
+}
+.social ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.social ul li{
+   list-style: none;
+   margin: 0 15px;
+
+}
+.social ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .5s;
+    color:black;
+}
+.social ul li a{
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(24, 24, 24, .5);
+}
+.social ul li a:hover{
+    transform: translate(0, -15px);
+}
+

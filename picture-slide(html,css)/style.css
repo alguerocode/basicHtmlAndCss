@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+.slid{
+    width: 700px;
+    height: 400px;
+    overflow:hidden ;
+}
+.slid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.bar{
+    width: 50px ;
+    height: 10px;
+    border:2px solid #fff ;
+    margin: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bar:hover{
+    background-color: cornsilk;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    
+}
+.slid-picture{
+    transition: 0.4s all;
+}
+
+#r1:checked ~.s1{
+    margin-left: 0;
+}
+#r2:checked ~.s1{
+    margin-left:-760px;
+}
+#r3:checked ~.s1{
+    margin-left:-1520px;
+}
+#r4:checked ~.s1{
+    margin-left:-2280px;
+}
+

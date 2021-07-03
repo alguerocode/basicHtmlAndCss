@@ -1,0 +1,21 @@
+*{
+    
+    color: rgb(231, 83, 103);
+}
+h1{
+    background-color: dimgray;
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    text-align: center;
+    background-image: url("pexels-zeeshaan-shabbir-5061561.jpg");
+    width: max-content;
+    opacity: 0.8;
+    font-weight: bold;
+    font-family: cursive !important;
+
+}
+

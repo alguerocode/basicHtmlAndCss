@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg");
+}
+main{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px rgb(54, 31, 77);
+    border-radius: 10px;
+    border: 0 solid black;
+    
+}
+header{
+    text-align: center;
+    line-height: 100px;
+    color: blueviolet;
+    font-weight: 900;
+    text-shadow: 0 1px 1px rgb(34, 33, 33);
+}
+form{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type=email],input[type=password]{
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    width: 200px;
+    padding: 5px 5px;
+    transition: all 0.4s;
+    border-radius: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+input[type=submit]{
+    line-height: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: all .3s;
+    padding: 5px 5px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    cursor: pointer;
+    width: 70px;
+}
+input[type=email]:hover,input[type=email]:focus,input[type=password]:hover,input[type=password]:focus{
+    width: 250px;
+}
+input[type=submit]:hover,input[type=submit]:focus{
+transform: scale(1.1);
+box-shadow: 0 1px 1px black;
+}
+.ic{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: 1.2em;
+    font-family: monospace,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    align-items: center;
+    color:rgb(16, 15, 17);
+    text-shadow: .1px .1px 1px black;
+}
+.icon{
+    margin: 10px 30px;
+    padding: 10px 100px;
+    display: flex;
+}
+.facebook{
+    margin-right: 15px;
+    padding: 10px;
+    color: rgb(60, 35, 202);
+    font-size: 30px;
+    cursor: pointer;
+   transition: all .3s;
+}
+.google
+{
+    margin-right: 15px;
+    padding: 10px;
+    color: orange;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+   box-shadow: 0 0 0 black;
+   cursor: pointer;
+   transition: all .3s;
+
+}
+.google:hover,.facebook:hover{
+    transform: scale(1.1);
+}
+.aside{
+    line-height: 50px;
+    text-align: center;
+}
+.aside a{
+    text-decoration: none;
+}

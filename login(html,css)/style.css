@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+h1{
+    font-size: 90px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-image: url("pexels-photomix-company-518245.jpg");
+    
+    color: brown;
+}
+.form{
+    border: 3px dotted red;
+    
+    overflow: scroll;
+    margin-top: 50px;
+    height: 1000px;
+    border-radius: 20px;
+    
+   
+}
+.email{
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 3000px;
+}
+
+#repw{
+    display: none;
+}
+.password{
+    visibility: hidden;
+    margin-bottom: 50px;
+}
+.username{
+    padding: 18px;
+    margin-top: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+

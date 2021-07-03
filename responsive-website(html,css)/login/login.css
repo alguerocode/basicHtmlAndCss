@@ -1,0 +1,67 @@
+body{
+    padding:10%;
+    margin:0 ;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: rgb(49, 224, 201);
+    text-align: center;
+    padding: 50px ;
+    max-width: 500px;
+    transition: 1s;
+}
+form{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+}
+#email{
+    
+    border: 3px solid rgb(32, 132, 199);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+#password{
+   
+    grid-row: 2;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(32, 132, 199);
+    transition:1s;
+}
+#submit{
+ 
+    
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(32, 132, 199);
+    font-size: large;
+    font-style: unset;
+    font-weight:700;
+    color:rgb(196, 193, 35);
+    background-color: blueviolet;
+    transition:1s;
+
+}
+header{
+padding: 30px;
+font-size: 50px;
+font-weight: 600;
+font-family: fantasy;
+text-shadow: 5px 5px rgb(42, 113, 206);
+}
+#email:hover ,#email:focus{
+    padding: 10px 30px;
+}#password:hover ,#password:focus{
+    padding: 10px 30px;
+}
+#submit:hover ,#submit:focus{
+    padding: 10px 30px;
+    
+}

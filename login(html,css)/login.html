@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+        <title>log in</title>
+        <h1>log in:</h1>
+    </head>
+    <body>
+        <form class="form">
+        <section class="email">
+        <label for="email">email:</label>    
+    <input type="email" name="email" id="email" required>    
+        </section>
+        
+        <section class="password">
+            <label for="pw">password :</label>
+            <input name="pw" id="pw" type="password" minlength="8" maxlength="16" required>
+            
+            <label for="repw" >rpassword:</label>
+            <input name="pw" id="repw" minlength="8" maxlength="16" type="password" required>
+        
+        </section>        
+        
+        <section class="username">
+            <label for="username">usename:</label>
+            <input type="text" name="username" id="username" pattern="[a-zA-Z0-9]+"  required>
+        </section>
+       
+        <section class="birth day">your birth day:
+            
+                <label for="birth">day:</label>
+        <input type="number" min="1" max="30" required>
+        
+        <label for="month">month</label>        
+    <input type="number" min="1" max="12" required>
+    <label for="year">year:</label>
+    <input id="year" name="year" type="number" min="1990" max="2020" required>    
+</section>
+        
+        <section class="cridet">
+            <label for="cridet">your cridet no space:</label>
+            <input type="text" pattern="[0-9]+" maxlength="16" minlength="14" required>
+        </section>
+        <section>
+            <button type="submit"><a href="./thanks.html">submit</a></button>
+        </section>
+    </form>        
+    </body>
+</html>

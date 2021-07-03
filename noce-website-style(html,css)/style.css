@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(51, 48, 48);
+}
+li, a , button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10% ;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-link{
+    list-style: none;
+
+}
+.nav-link li{
+    display:inline-block ;
+    padding: 0px 20px;
+}
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+    color: cyan;
+}
+button{
+    padding: 10px 30px;
+    background-color: rgba(46, 49, 92,1) ;
+    border: none;
+    border-radius:50px ;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+ 
+}
+button:hover{
+    background-color: rgb(71, 81, 212) ;
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <img src="https://upload.wikimedia.org/wikipedia/en/f/fa/Rotana_Logo.png" alt="rotana hotel img" width="500" height="200">
+         <p><h1><em>welcom to ratana hotel</em> </h1></p> 
+    </head>
+    <body>
+        <main>
+            <form>
+                <header><h2>check in:</h2></header>
+                <section class="username">
+                    <label for="first name">first name:</label>
+                    <input type="text" name="name" id="first name" pattern="[a-zA-Z]+" maxlength="8" minlength="2" required>
+                    <br><br>
+                    <label for="last name">last name:</label>
+                    <input type="text" name="last name" id="last name" pattern="[a-zA-Z]+" maxlength="13" minlength="4" required>
+                
+                </section>
+                <br><br>
+                <section class="email">
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" value=" @gmail.com" required> 
+                </section>
+                <br>
+                <section class="pw">
+                    <label for="pw">password</label>
+                    <input type="password" id="pw" name="password" maxlength="16" minlength="8" required>
+                </section>
+                <br><br>
+                <section class="regard">
+                    <header><strong>your<ins> regard</ins></strong></header>
+                    <input type="radio" id="regard" name="male">
+                    <label for="male">male</label>
+                    <br>
+                    <input type="radio" id="regrad" name="female">
+                    <label for="female">female</label>
+                </section>
+                <br><br>
+                <section class="select room">
+                    <label for="select">room location</label>
+                    <select name="room" id="room location">
+                        <option value="in roof">in roof</option>
+                        <option value="in beach"> in beach</option>
+                        <option value="bihine">bihind</option>
+                    </select>
+
+                </section>
+                <br>
+                <section class="date">
+                    <label for="time">your time:</label>
+                    <input type="time" name="time" id="time">
+                </section>
+                <br>
+                <section class="rate">
+                    <label for="rate">your rate</label>
+                    <input type="range" id="rate" name="rate" step=".5" max="5" min="1">
+                </section>
+                <br><br>
+                <section class="check in">
+                    <button type="submit"><a href="./home.html">submit</a></button>
+                    
+                </section>
+                
+            </form>
+        </main>
+    </body>
+</html>
